@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 19px 29px 19px 29px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+#hero {
+    background-color: tomato;
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("/assets/hero-bg.png");
+    background-size: 919px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1519px;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero_contain {
+    width: 810px;
+
+}
+
+#hero .hero_contain .subtitlle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px 0px;
+}
+
+#hero .hero_contain .titlle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+#hero .hero_contain .contain {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 21px 0px;
+}
+
+#card_box {
+    width: 1042px;
+    margin: 110px auto;
+}
+
+#card_box .titlle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card_box .sub_tittle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* #card_box .info{
+    margin: 0px auto 30px auto;
+    /* margin-bottom: 30px; */
+#card_box .card_container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+
+.card {
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image_box {
+    width: 310px;
+}
+
+.card .image_box img {
+    width: 100%;
+}
+
+.card .shop {
+    border-radius: 8px;
+    padding: 12px 28px 12px 28px;
+    background: rgba(82, 195, 3, 0.15);
+}
