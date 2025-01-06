@@ -32,10 +32,9 @@
 }
 
 #hero {
-    background-color: tomato;
-    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("/assets/hero-bg.png");
+    background: url("/assets/hero-bg.png") ,linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%);
     background-size: 919px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
     width: 1519px;
