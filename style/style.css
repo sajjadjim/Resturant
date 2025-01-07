@@ -32,7 +32,9 @@
 }
 
 #hero {
-    background: url("/assets/hero-bg.png") ,linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%);
+    /* background: url("/assets/hero-bg.png") ,linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/hero-bg.png");
     background-size: 919px;
     /* background-repeat: no-repeat; */
     background-position: center;
